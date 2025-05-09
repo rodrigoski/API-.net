@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "O14W1RT3ZVvEWQrjVmdbheKzm0cOSszNH5HoYvJiw1c=",
+  "Source": "MiApiDevOps",
+  "BasePath": "_content/MiApiDevOps",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
