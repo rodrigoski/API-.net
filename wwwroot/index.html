@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de Usuarios</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #resultado { 
+            white-space: pre-wrap;
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buscar Usuario</h1>
+    <input type="number" id="idInput" placeholder="ID">
+    <input type="text" id="nombreInput" placeholder="Nombre">
+    <input type="number" id="edadInput" placeholder="Edad">
+    <input type="correo" id="correoInput" placeholder="Correo">
+    <button onclick="buscarUsuario()">Buscar</button>
+    <div id="resultado"></div>
+
+    <script>
+        async function buscarUsuario() {
+            const id = document.getElementById('idInput').value;
+            const nombre = document.getElementById('nombreInput').value;
+            const edad = document.getElementById('edadInput').value;
+            const correo = document.getElementById('correoInput').value;
+            
+            const url = `http://localhost:5220/users/GetUsuario/${id}/${nombre}/${edad}/${correo}`;
+            
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                document.getElementById('resultado').innerHTML = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('resultado').innerHTML = "Error: " + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

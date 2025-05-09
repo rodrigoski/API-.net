@@ -3,8 +3,14 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+// Habilitar archivos estáticos (wwwroot)
+app.UseStaticFiles(); 
+
 app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();
 
-app.Run("http://localhost:5050");
+// Redirección a la interfaz
+app.MapGet("/", () => Results.Redirect("/index.html"));
+
+app.Run("http://localhost:5220"); 

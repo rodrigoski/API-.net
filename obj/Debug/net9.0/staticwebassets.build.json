@@ -1,12 +1,362 @@
 {
   "Version": 1,
-  "Hash": "O14W1RT3ZVvEWQrjVmdbheKzm0cOSszNH5HoYvJiw1c=",
+  "Hash": "5WJlxwo0Nw3fH85MzFcMMakuuKu8LcarFXFIqVBfE0w=",
   "Source": "MiApiDevOps",
   "BasePath": "_content/MiApiDevOps",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MiApiDevOps/wwwroot",
+      "Source": "MiApiDevOps",
+      "ContentRoot": "/home/rodrigoski/MiApiDevOps/wwwroot/",
+      "BasePath": "_content/MiApiDevOps",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz",
+      "SourceId": "MiApiDevOps",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MiApiDevOps",
+      "RelativePath": "index#[.{fingerprint=7ccnsj7gu0}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/rodrigoski/MiApiDevOps/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7s0o4hakxr",
+      "Integrity": "Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/rodrigoski/MiApiDevOps/wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/rodrigoski/MiApiDevOps/wwwroot/index.html",
+      "SourceId": "MiApiDevOps",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rodrigoski/MiApiDevOps/wwwroot/",
+      "BasePath": "_content/MiApiDevOps",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ccnsj7gu0",
+      "Integrity": "N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.7ccnsj7gu0.html",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001633986928"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ccnsj7gu0"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo="
+        }
+      ]
+    },
+    {
+      "Route": "index.7ccnsj7gu0.html",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ccnsj7gu0"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo="
+        }
+      ]
+    },
+    {
+      "Route": "index.7ccnsj7gu0.html.gz",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ccnsj7gu0"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001633986928"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9aDmLWUlUA+eB+mY7tRVgkTJa8cVgGE9ME8GrTADdo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 17:27:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cd4C4I1QqUagUI8K9LcqYOHGZGvWc0QYP4vAyJjBTC0="
+        }
+      ]
+    }
+  ]
 }

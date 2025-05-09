@@ -31,3 +31,6 @@
 /home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/MiApiDevOps.pdb
 /home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/MiApiDevOps.genruntimeconfig.cache
 /home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/ref/MiApiDevOps.dll
+/home/rodrigoski/MiApiDevOps/bin/Debug/net9.0/MiApiDevOps.staticwebassets.runtime.json
+/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/MiApiDevOps.sourcelink.json
+/home/rodrigoski/MiApiDevOps/obj/Debug/net9.0/compressed/8x80v71xwf-7ccnsj7gu0.gz
